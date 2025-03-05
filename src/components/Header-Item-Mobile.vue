@@ -159,4 +159,7 @@ const changeLanguage = () => {
 .dropdown-anchor > .el-anchor__list > .el-anchor__item > .is-active{
 color: #409EFF;
 }
+.el-dropdown-menu{
+  padding: 0;
+}
 </style>

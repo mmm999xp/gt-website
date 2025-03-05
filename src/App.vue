@@ -1,6 +1,7 @@
 <script setup>
 import HeaderItem from '@/components/Header-Item.vue'
 import HeaderItemMobile from '@/components/Header-Item-Mobile.vue'
+import HomeItem from '@/components/Home-Item.vue'
 import { useWindowSize } from '@vueuse/core'
 const { width } = useWindowSize()
 </script>
@@ -13,7 +14,9 @@ const { width } = useWindowSize()
         <el-header>
           <HeaderItem />
         </el-header>
-        <el-main>Main</el-main>
+        <el-main>
+          <HomeItem />
+        </el-main>
         <el-footer>Footer</el-footer>
       </el-container>
     </template>
@@ -23,7 +26,9 @@ const { width } = useWindowSize()
         <el-header>
           <HeaderItemMobile />
         </el-header>
-        <el-main>Main</el-main>
+        <el-main>
+          <HomeItem />
+        </el-main>
         <el-footer>Footer</el-footer>
       </el-container>
     </template>
@@ -32,6 +37,9 @@ const { width } = useWindowSize()
 
 <style scoped>
 .el-header{
+  padding: 0;
+}
+.el-main{
   padding: 0;
 }
 </style>
