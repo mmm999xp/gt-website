@@ -30,13 +30,13 @@ const changeLanguage = () => {
         class="header-menu-anchor"
       >
         <el-anchor-link
-          :href="`#`"
+          :href="`#home`"
           class="header-memu-item"
         >
           {{ $t('home') }}
         </el-anchor-link>
         <el-anchor-link
-          :href="`#1`"
+          :href="`#about`"
           class="header-memu-item"
         >
           {{ $t('about') }}
@@ -105,6 +105,9 @@ const changeLanguage = () => {
   color: #ffffff;
   font-size: 16px;
   font-family: 'Noto Sans TC';
+}
+.header-memu-item :hover{
+  color: #0046b8;
 }
 .language{
   margin-left: 16px;

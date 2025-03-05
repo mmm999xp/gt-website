@@ -20,7 +20,7 @@
 .hero-section {
   position: relative;
   width: 100%;
-  height: 700px; /* 全螢幕 */
+  height: 100vh; /* 全螢幕 */
   background: url('/banner2.png') no-repeat center center/cover;
   display: flex;
   align-items: center;

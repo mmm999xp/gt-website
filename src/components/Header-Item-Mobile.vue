@@ -59,13 +59,13 @@ const changeLanguage = () => {
               class="dropdown-anchor"
             >
               <el-anchor-link
-                href="#"
+                href="#home"
                 @click="closeDropdown"
               >
                 {{ $t('home') }}
               </el-anchor-link>
               <el-anchor-link
-                href="#1"
+                href="#about"
                 @click="closeDropdown"
               >
                 {{ $t('about') }}
