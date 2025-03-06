@@ -48,7 +48,7 @@ const changeLanguage = () => {
           {{ $t('services') }}
         </el-anchor-link>
         <el-anchor-link
-          :href="`#3`"
+          :href="`#contact`"
           class="header-memu-item"
         >
           {{ $t('contact') }}
