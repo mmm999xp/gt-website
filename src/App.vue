@@ -3,6 +3,7 @@ import HeaderItem from '@/components/Header-Item.vue'
 import HeaderItemMobile from '@/components/Header-Item-Mobile.vue'
 import HomeItem from '@/components/Home-Item.vue'
 import AboutItem from '@/components/About-Item.vue'
+import ServicesItem from '@/components/Services-item.vue'
 import { useWindowSize } from '@vueuse/core'
 const { width } = useWindowSize()
 </script>
@@ -18,6 +19,7 @@ const { width } = useWindowSize()
         <el-main>
           <HomeItem id="home" />
           <AboutItem id="about" />
+          <ServicesItem id="services" />
         </el-main>
         <el-footer>Footer</el-footer>
       </el-container>
@@ -31,6 +33,7 @@ const { width } = useWindowSize()
         <el-main>
           <HomeItem id="home" />
           <AboutItem id="about" />
+          <ServicesItem id="services" />
         </el-main>
         <el-footer>Footer</el-footer>
       </el-container>
@@ -47,5 +50,6 @@ const { width } = useWindowSize()
 }
 .el-main{
   padding: 0;
+  background-color: #111827;
 }
 </style>

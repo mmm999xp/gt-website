@@ -14,5 +14,13 @@
   "about_item_title2":"Core Values",
   "about_item_text2":"Customer-centric, pursuit of excellence, continuous innovation, honest cooperation",
   "about_item_title3":"Expertise",
-  "about_item_text3":"Have rich experience in web development and be proficient in the latest web technologies"
+  "about_item_text3":"Have rich experience in web development and be proficient in the latest web technologies",
+  "service_title":"Services",
+  "service_item_title1":"Website Development",
+  "service_item_text1":"Customized website design and development, responsive web design",
+  "service_item_title2":"Enterprise Platform",
+  "service_item_text2":"Large-scale enterprise management system, e-commerce platform development",
+  "service_item_title3":"Mobile Apps",
+  "service_item_text3":"Mobile app development, cross-platform solutions",
+  "service_item_button":"Learn More"
 }

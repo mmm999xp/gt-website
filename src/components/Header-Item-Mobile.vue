@@ -71,7 +71,7 @@ const changeLanguage = () => {
                 {{ $t('about') }}
               </el-anchor-link>
               <el-anchor-link
-                href="#2"
+                href="#services"
                 @click="closeDropdown"
               >
                 {{ $t('services') }}

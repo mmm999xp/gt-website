@@ -14,5 +14,13 @@
   "about_item_title2":"核心價值",
   "about_item_text2":"以客戶為中心，追求卓越，持續創新，誠信合作",
   "about_item_title3":"專業技術",
-  "about_item_text3":"擁有豐富的網頁開發經驗，精通最新的網頁技術"
+  "about_item_text3":"擁有豐富的網頁開發經驗，精通最新的網頁技術",
+  "service_title":"服務項目",
+  "service_item_title1":"網站開發",
+  "service_item_text1":"客製化網站設計與開發，響應式網頁設計",
+  "service_item_title2":"企業平台",
+  "service_item_text2":"大型企業管理系統，電子商務平台開發",
+  "service_item_title3":"行動應用",
+  "service_item_text3":"手機應用程式開發，跨平台解決方案",
+  "service_item_button":"了解更多"
 }
