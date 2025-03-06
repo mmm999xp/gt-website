@@ -5,6 +5,7 @@ import HomeItem from '@/components/Home-Item.vue'
 import AboutItem from '@/components/About-Item.vue'
 import ServicesItem from '@/components/Services-Item.vue'
 import ContactItem from './components/Contact-Item.vue'
+import FooterItem from './components/Footer-Item.vue'
 import { useWindowSize } from '@vueuse/core'
 const { width } = useWindowSize()
 </script>
@@ -23,7 +24,7 @@ const { width } = useWindowSize()
           <ServicesItem id="services" />
           <ContactItem id="contact" />
         </el-main>
-        <el-footer>Footer</el-footer>
+        <el-footer><FooterItem /></el-footer>
       </el-container>
     </template>
     <!-- 行動版 -->
@@ -38,7 +39,7 @@ const { width } = useWindowSize()
           <ServicesItem id="services" />
           <ContactItem id="contact" />
         </el-main>
-        <el-footer>Footer</el-footer>
+        <el-footer><FooterItem /></el-footer>
       </el-container>
     </template>
   </div>
@@ -52,7 +53,11 @@ const { width } = useWindowSize()
   z-index: 10;
 }
 .el-main{
+  margin-top: 60px;
   padding: 0;
+  background-color: #111827;
+}
+.el-footer{
   background-color: #111827;
 }
 </style>

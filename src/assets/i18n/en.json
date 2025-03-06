@@ -48,5 +48,6 @@
   "contact_form_desc_placeholder": "Please describe your project in detail",
   "contact_form_personal_information_check": "I agree that GT Technology may process my personal data. GT Technology will never use this information for purposes other than consultation.",
   "contact_form_submit": "Submit",
-  "contact_form_reset": "Reset"
+  "contact_form_reset": "Reset",
+  "footer_main":"© 2025 GT Technology. All rights reserved."
 }

@@ -48,5 +48,6 @@
   "contact_form_desc_placeholder": "請詳述您想發案的內容",
   "contact_form_personal_information_check": "我同意 GT科技 處理我的個人資料， GT科技 絕不會將此資料用在諮詢以外的事項",
   "contact_form_submit": "送出",
-  "contact_form_reset": "重置"
+  "contact_form_reset": "重置",
+  "footer_main":"© 2025 GT科技. 版權所有"
 }

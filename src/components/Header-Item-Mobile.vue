@@ -57,6 +57,7 @@ const changeLanguage = () => {
             <el-anchor
               direction="vertical"
               class="dropdown-anchor"
+              :offset="50"
             >
               <el-anchor-link
                 href="#home"

@@ -25,7 +25,7 @@ const changeLanguage = () => {
 
     <div class="header-menu">
       <el-anchor
-        :offset="70"
+        :offset="50"
         direction="horizontal"
         class="header-menu-anchor"
       >

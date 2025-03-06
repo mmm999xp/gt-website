@@ -172,7 +172,7 @@ const resetForm = formEl => {
 <style scoped>
 .contact{
   width: 100%;
-  min-height: 360px;
+  min-height: 800px;
   background-color: #1F2937;
   padding-bottom: 16px;
   display: flex;
@@ -219,6 +219,7 @@ const resetForm = formEl => {
 }
 :deep(.el-checkbox__label){
   color: #9CA3AF;
+  max-width: 520px;
 }
 :deep(.is-focus){
   box-shadow:0 0 0 1px #0046b8;
