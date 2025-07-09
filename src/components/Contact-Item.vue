@@ -221,6 +221,9 @@ const resetForm = formEl => {
   color: #9CA3AF;
   max-width: 520px;
 }
+:deep(.el-checkbox){
+  margin:  20px 0;
+}
 :deep(.is-focus){
   box-shadow:0 0 0 1px #0046b8;
 }

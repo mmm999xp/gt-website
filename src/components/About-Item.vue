@@ -72,8 +72,8 @@
   background-color: #111827;
   border-radius: 12px;
   width: 25%;
-  min-width: 300px;
-  max-width: 450px;
+  min-width: 240px;
+  max-width: 375px;
   outline: #374151 1px solid;
   padding: 24px;
   margin: 16px;

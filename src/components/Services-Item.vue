@@ -78,6 +78,7 @@ import { Right } from '@element-plus/icons-vue'
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  width: 100%;
 }
 .service-item{
   display: flex;
@@ -86,8 +87,8 @@ import { Right } from '@element-plus/icons-vue'
   background-color: #1F2937;
   border-radius: 12px;
   width: 25%;
-  min-width: 300px;
-  max-width: 450px;
+  min-width: 240px;
+  max-width: 375px;
   min-height: 1.2rem;
   outline: #374151 1px solid;
   padding: 24px;

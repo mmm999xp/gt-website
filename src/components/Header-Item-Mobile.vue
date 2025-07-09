@@ -113,7 +113,7 @@ const changeLanguage = () => {
 .header-menu{
   display: flex;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 .header-menu-anchor{
   background-color: #111827;
